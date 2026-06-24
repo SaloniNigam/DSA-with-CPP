@@ -21,6 +21,8 @@
 //     return 0;
 // }
 
+
+
 // // armstrong no.
 
 // #include<iostream>
@@ -84,6 +86,9 @@
 // cout<<count;
 // }
 
+
+
+
 // // check formation of rectangle or not
 
 // #include<iostream>
@@ -97,6 +102,8 @@
 //     else
 //     cout<<"Not a rectangle";
 // }
+
+
 
 // Bishop
 
