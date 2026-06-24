@@ -1,4 +1,4 @@
-//  //Arrary 
+// //Arrary 
 // //Array is a honogeneous type of data type which store data in a contigous memory location
 
 // declearation
@@ -37,7 +37,7 @@
 // }
 
 
-// // using siizeof in arr
+// // using sizeof in arr
 // #include<iostream>
 // using namespace std;
 // int main()
@@ -51,6 +51,7 @@
 
 
 // // size of individual element in arr
+
 // #include<iostream>
 // using namespace std;
 // int main()
@@ -64,38 +65,38 @@
 
 // // find min value in arr
 
-#include<iostream>
-#include <climits> // For INT_MAX
-using namespace std;
-int main()
-{ 
-    int arr[5]={ 6, 4, 3, 8, 9 };
-    int ans= INT_MAX;
-    for (int i=0; i<5;i++)
-    {
-        if ( arr [i]<ans)
-        ans=arr[i];
-    }
-    cout<<ans;
-    return 0;
-}
+// #include<iostream>
+// #include <climits> // For INT_MAX
+// using namespace std;
+// int main()
+// { 
+//     int arr[5]={ 6, 4, 3, 8, 9 };
+//     int ans= INT_MAX;
+//     for (int i=0; i<5;i++)
+//     {
+//         if ( arr [i]<ans)
+//         ans=arr[i];
+//     }
+//     cout<<ans;
+//     return 0;
+// }
 
 // // find max value in arr
 
-// #include <iostream>
-// #include <climits> // For INT_MIN
-// using namespace std;
+#include <iostream>
+#include <climits> // For INT_MIN
+using namespace std;
 
-// int main() {
-//     int arr[5] = {1, 12, 5, 9, 11};
-//     int ans = INT_MIN; // Correct constant for int
+int main() {
+    int arr[5] = {1, 12, 5, 9, 11};
+    int ans = INT_MIN; // Correct constant for int
 
-//     for (int i = 0; i < 5; i++) {
-//         if (arr[i] > ans) { // Removed the extra semicolon
-//             ans = arr[i];
-//         }
-//     }
+    for (int i = 0; i < 5; i++) {
+        if (arr[i] > ans) { // Removed the extra semicolon
+            ans = arr[i];
+        }
+    }
 
-//     cout << ans;
-//     return 0;
-// }
+    cout << ans;
+    return 0;
+}
