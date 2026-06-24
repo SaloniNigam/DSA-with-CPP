@@ -1,3 +1,5 @@
+// //  Day 13
+
 // // add digit
 
 // #include<iostream>
@@ -46,6 +48,8 @@
 //     }
 //  }
 
+
+
 // // reverse integer
 
 // #include<iostream>
@@ -70,6 +74,8 @@
 //     cout<<ans;
 // }
 
+
+
 // // power of two
 // #include<iostream>
 // using namespace std;
@@ -92,6 +98,8 @@
 //                return true;
         
 //     }
+
+
 
 // // palindrome
 #include<iostream>
