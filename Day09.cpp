@@ -1,24 +1,23 @@
 /// program1 
 
-// #include<iostream>
-// using namespace std;
-// int main()
+#include<iostream>
+using namespace std;
+int main()
 
-// { int i,j;
-//     for (i=1;i<=7;i++)
-//     {
-//         for (j=1;j<=7-i;j++)
-//         { cout<<" ";
-//         }
-//         for (j=1;j<=i;j++)
-//         {
-//             cout<<"*";
-//          }cout<< endl;
-//     }
-// }
-//  print ho raha h 
+{ int i,j;
+    for (i=1;i<=7;i++)
+    {
+        for (j=1;j<=7-i;j++)
+        { cout<<" ";
+        }
+        for (j=1;j<=i;j++)
+        {
+            cout<<"*";
+         }cout<< endl;
+    }
+}
 
-///  program 2
+// //  program 2
 
 // #include<iostream>
 // using namespace std;
@@ -40,7 +39,7 @@
 // code runs
 
 
-/// proggram 3
+// // proggram 3
 
 // #include<iostream>
 // using namespace std;
@@ -65,7 +64,7 @@
 // }
 
 
-/// program no. 4
+// // program no. 4
 
 // #include<iostream>
 // using namespace std;
@@ -91,7 +90,7 @@
 //     }
 // }
 
-///  program no. 5
+// //  program no. 5
 
 
 // #include<iostream>
@@ -116,7 +115,7 @@
 //     }
 // }
 
-// /method 2 p no. 5
+// //method 2 p no. 5
 
 // #include<iostream>
 // using namespace std;
@@ -141,7 +140,7 @@
 //     }
 // }
 
-///program no. 6
+// //program no. 6
 
 
 // #include<iostream>
@@ -191,7 +190,7 @@
 //     }
 // }
 
-// /program no. 7
+// //program no. 7
 
 // #include<iostream>
 // using namespace std;
@@ -240,47 +239,47 @@
     
 // }
 
-///program no. 8
+// //program no. 8
 
-#include<iostream>
-using namespace std;
-int  main()
-{
-    int i,j,n;
-    cout<<"enter no.";
-    cin>>n;
+// #include<iostream>
+// using namespace std;
+// int  main()
+// {
+//     int i,j,n;
+//     cout<<"enter no.";
+//     cin>>n;
 
-    for(i=1;i<=n;i++)
-    {
-        for(j=1;j<=n-i;j++)
-        {
-            cout<<" ";
-        }
-        for(j=1;j<=i;j++)
-        {
-            cout<<"* ";
-        }
-        for(j=1;j<=n-i;j++)
-         {
-            cout<<" ";
-        }
-        cout<<endl;
-    }
+//     for(i=1;i<=n;i++)
+//     {
+//         for(j=1;j<=n-i;j++)
+//         {
+//             cout<<" ";
+//         }
+//         for(j=1;j<=i;j++)
+//         {
+//             cout<<"* ";
+//         }
+//         for(j=1;j<=n-i;j++)
+//          {
+//             cout<<" ";
+//         }
+//         cout<<endl;
+//     }
 
-    for(i=n-1;i>=1;i--)
-    {
-        for(j=1;j<=n-i;j++)
-        {
-            cout<<" ";
-        }
-        for(j=1;j<=i;j++)
-        {
-            cout<<"* ";
-        }
-        for(j=1;j<=n-i;j++)
-         {
-            cout<<" ";
-        }
-        cout<<endl;
-    }
-}
+//     for(i=n-1;i>=1;i--)
+//     {
+//         for(j=1;j<=n-i;j++)
+//         {
+//             cout<<" ";
+//         }
+//         for(j=1;j<=i;j++)
+//         {
+//             cout<<"* ";
+//         }
+//         for(j=1;j<=n-i;j++)
+//          {
+//             cout<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }
