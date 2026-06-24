@@ -162,19 +162,19 @@
 //    }
 // }
 
-// #include<iostream>
-// using namespace std;
-// int main()
-// { 
-//     char name='a';//name='b';
-//     if (name=='a'||name=='e'||name=='i'||name=='o'||name=='u')
-//     {
-//         cout<<"vowel";
-//     }
-//     else{
-//         cout<<"consonent";
-//     }
-// }
+#include<iostream>
+using namespace std;
+int main()
+{ 
+    char name='a';//name='b';
+    if (name=='a'||name=='e'||name=='i'||name=='o'||name=='u')
+    {
+        cout<<"vowel";
+    }
+    else{
+        cout<<"consonent";
+    }
+}
 
 // // bitwise operator
 // // and 
@@ -222,10 +222,10 @@
 // }
 
 ////   right shift
-#include<iostream>
-using namespace std;
-int main()
-{  
-    int ans =5>>1;
-    cout<<ans;
-}
+// #include<iostream>
+// using namespace std;
+// int main()
+// {  
+//     int ans =5>>1;
+//     cout<<ans;
+// }
