@@ -18,6 +18,8 @@
     
 // }
 
+
+
 // // binary to decimal
 
 // #include<iostream>
@@ -37,6 +39,8 @@
 //     cout<< ans<<endl;
     
 // }
+
+
 
 // // oct to dec
 
@@ -58,21 +62,23 @@
     
 // }
 
+
+
 // // dec to octal
-// #include<iostream>
-// using namespace std;
-// int main()
-// {   int num;
-//     cout<<"enter the decimal  no. ";
-//     cin>> num;
-//     int rem, ans=0,mul=1;
-//     while(num>0)
-//     {
-//         rem=num%8;
-//         num=num/8;    
-//         ans+=rem*mul;
-//         mul*=10;
-//     }
-//     cout<< ans<<endl;
+#include<iostream>
+using namespace std;
+int main()
+{   int num;
+    cout<<"enter the decimal  no. ";
+    cin>> num;
+    int rem, ans=0,mul=1;
+    while(num>0)
+    {
+        rem=num%8;
+        num=num/8;    
+        ans+=rem*mul;
+        mul*=10;
+    }
+    cout<< ans<<endl;
     
-// }
+}
