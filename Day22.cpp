@@ -1,4 +1,4 @@
-// Binary Sort
+// Binary Search
 // For ascending order of arrary
 
 
