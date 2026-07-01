@@ -1,3 +1,5 @@
+//1. First and last position of element in Sorted Array
+
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -5,7 +7,7 @@ int main()
 {
     int arr[1000];
     int n;
-    cout<<"enter the size of array";
+    cout<<"enter the size of array ";
     cin>>n;
     cout<<"enter the element of array ";
     for (int i=0;i<n;i++)
@@ -30,7 +32,7 @@ int main()
              end=mid-1;
     }
 
-     start=0,end=n-1,mid,first=-1,last=-1;
+     start=0,end=n-1;
     while(start<=end)
     {
         mid=start+(end-start)/2;
@@ -46,8 +48,6 @@ int main()
              end=mid-1;
     }
 
-    vector<int> a(2);
-    a[0]=first;
-    a[1]=last;
+   cout<<"First "<<first<<" Last "<<last<<endl;
     return 0;
 }
