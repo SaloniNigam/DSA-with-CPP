@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     string address;
-    cout<<"Enter the string using '.' between like '1.1.1.1' ";
+    cout<<"Enter the IP address like '1.1.1.1' ";
     cin>>address;
     cout<<address<<endl;
     int index=0;
