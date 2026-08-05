@@ -1,1 +1,3 @@
-string s3=s1.append(s2);
+
+    ptr=ptr+3;
+    cout<<*ptr<<endl;
